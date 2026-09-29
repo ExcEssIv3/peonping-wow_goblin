@@ -1,0 +1,139 @@
+{
+  "cesp_version": "1.0",
+  "name": "wow_goblin",
+  "display_name": "WoW Goblin",
+  "version": "1.0.0",
+  "description": "Zany male goblin merchant voice from World of Warcraft Classic. Time is money, friend!",
+  "author": {
+    "name": "ExcEssIv3",
+    "github": "ExcEssIv3"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "warcraft",
+    "wow",
+    "goblin",
+    "blizzard"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_greeting01.mp3",
+          "label": "Time is money, friend!",
+          "sha256": "987ae3075bb66e742cee0601e99918269acc25054f3a6a23fbcea36a55fdd5d3"
+        },
+        {
+          "file": "sounds/malezany_greeting02.mp3",
+          "label": "What's up?",
+          "sha256": "d892069f6cde83b3a596a3a4ec64251831ffa882d93afb9ec4d9d55e237499fa"
+        },
+        {
+          "file": "sounds/malezany_greeting05.mp3",
+          "label": "Ah! Potential customer!",
+          "sha256": "f843a295a1586a94a95ed5db4c3e04174d6fc1da96c61e7e57bdf219bb089de4"
+        },
+        {
+          "file": "sounds/malezany_greeting06.mp3",
+          "label": "Yo!",
+          "sha256": "0e2f12c279d24a946f948cabe5aefe282469122ea1a970ee4a52f398275f6eda"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_greeting03.mp3",
+          "label": "Oh, do I have a deal for you!",
+          "sha256": "cee48254892a44a5f5c851ed8e8e27e04c6886d9f1d239ea87d585d4743d8d75"
+        },
+        {
+          "file": "sounds/malezany_vendor01.mp3",
+          "label": "I got what you need!",
+          "sha256": "be1824d8c417c908f2a4e36146af77b2f881d96fc22a41952764b37be5c2337f"
+        },
+        {
+          "file": "sounds/malezany_greeting04.mp3",
+          "label": "Talk to me!",
+          "sha256": "a6249be7a9b5dae80a86a1d80b03ae993e7a134825f79d24e43de941e97f044d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_farewell04.mp3",
+          "label": "Haha! Glad I could help!",
+          "sha256": "2acadbb604a41c1c7be135a1b540e4820ecf18ba6671924113b17d86769c9d4c"
+        },
+        {
+          "file": "sounds/malezany_farewell01.mp3",
+          "label": "Keep it real!",
+          "sha256": "df1966f2475486f0c106104bf0bd2d9949e0a372c4655a76bb75babd99c9affb"
+        },
+        {
+          "file": "sounds/malezany_farewell03.mp3",
+          "label": "Hurry back!",
+          "sha256": "15bb9f06d00cad0e54e111701426df484a3a7ab819f494b8d552be85aca52542"
+        },
+        {
+          "file": "sounds/malezany_vendor02.mp3",
+          "label": "I got the best deals anywhere!",
+          "sha256": "105c89a14a2c95af1ad5edae06690850f7b5f457d5cf64b7f21ac6c9132f8671"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_pissed01.mp3",
+          "label": "Yeah, very funny!",
+          "sha256": "d560621ce648c10a48bac7b2d962e4f420507b5d714c0381e56b1189635c1138"
+        },
+        {
+          "file": "sounds/malezany_pissed04.mp3",
+          "label": "Amateur!",
+          "sha256": "57567297e232164d2999c11eda01f3ad394f9e3902b267702e7520592416ba11"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_greeting04.mp3",
+          "label": "Talk to me!",
+          "sha256": "a6249be7a9b5dae80a86a1d80b03ae993e7a134825f79d24e43de941e97f044d"
+        },
+        {
+          "file": "sounds/malezany_greeting02.mp3",
+          "label": "What's up?",
+          "sha256": "d892069f6cde83b3a596a3a4ec64251831ffa882d93afb9ec4d9d55e237499fa"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_pissed03.mp3",
+          "label": "I don't have time for this!",
+          "sha256": "f7f9522a8416385d2cd1a854fb47c265036932cfb5921b9d29a87ba7f8cef2e7"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/malezany_pissed02.mp3",
+          "label": "Buy something or leave!",
+          "sha256": "801739e172ef6e99d209509edef4115d4380a7d66ba4dd96cbb80b32dc55226c"
+        },
+        {
+          "file": "sounds/malezany_pissed01.mp3",
+          "label": "Yeah, very funny!",
+          "sha256": "d560621ce648c10a48bac7b2d962e4f420507b5d714c0381e56b1189635c1138"
+        }
+      ]
+    }
+  }
+}
